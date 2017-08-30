@@ -26,11 +26,12 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/G1Fv3' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/XSansa7/project-1/blob/master/Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -40,18 +41,18 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** I feel that Android app development platform is easy to use so far. I don’t have much experience using other platforms, so I also learned to develop some simple app in iOS with help of online tutorials and documentation. From the perspective of a beginner to both Android and iOS, Android’s approach to layouts and user interfaces is quite nicer for me. To build a UI or control properties of contained views, I can either use Layout Editor or code in XML files. The Layout Editor makes the process easy to begin, using XML vocabulary guarantees a clear and precise arrangement of UI elements. In iOS, Storyboard is a main approach to build a UI, and programmatically creating layouts could be difficult and bug-prone. RelativeLayout in Android enables specifying the locations of child objects to each other or to the parent, which helps design flexible UI. The analogy to RelativeLayout in iOS is Auto Layout, which seems powerful yet complex.
+**Answer:** I feel Android app development platform is easy to use so far. I don’t have much experience using other platforms, so I also learned to develop some simple app in iOS with the help of online tutorials and documentation. From the perspective of a beginner to both Android and iOS, Android’s approach to layouts and user interfaces is quite nicer for me. To build a UI or control properties of contained views, I can either use Layout Editor or code in XML files. The Layout Editor makes the process easy to begin, using XML vocabulary guarantees a clear and precise arrangement of UI elements. In iOS, Storyboard is a main approach to build a UI, and programmatically creating layouts could be difficult and bug-prone. RelativeLayout in Android enables specifying the locations of child objects to each other or to the parent, which helps design flexible UI. The analogy to RelativeLayout in iOS is Auto Layout, which seems powerful yet complex.
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
 **Answer:** An adapter converts each data object to a corresponding view item contained in an AdapterView. In our pre-work, the ListView is an AdapterView, by attaching it with an ArrayAdapter, the ListView is associated with a list of String to represent in it. The importance of the adapter resides in that it provides a method to control views’ behavior and display/modify data on the screen.
 
-The ArrayAdapter calls getView on each data object to create views for the ListView to fill its rows. As the user scroll down, some views created before are no longer being displayed, then the convertView is one existing view recycled to display new data.
+The ArrayAdapter calls getView on each data object to create views for the ListView to fill its rows. As the user scroll down, some views created before are no longer being displayed, then the convertView is an existing view recycled to display new data.
 
 
 ## Notes
 
-There aren’t many challenges encountered in implementing the required functionality. One bug caused by null error was dismissed since running the app on Genymotion doesn’t show any sign of it until I tested the app on the standard Android Emulator. I spent more hours to make android concepts clear and learn the basics of iOS development so that I can compare Android and iOS. 
+There aren’t many challenges encountered in implementing the required functionality. One bug caused by null error was dismissed since running the app on Genymotion didn’t show any sign of it, and I discovered it until I tested the app on the standard Android Emulator. I spent more time making myself clear about android concepts and learning the basics of iOS development so that I can compare Android and iOS. 
 
 ## License
 
